@@ -38,7 +38,7 @@ const PROGMEM const uint8_t CC1100_ITCFG[EE_CC1100_CFG_SIZE] = {
 // CULFW   IDX NAME     RESET STUDIO COMMENT
    0x0D, // 00 IOCFG2   *29   *0B    GDO2 as serial output
    0x2E, // 01 IOCFG1    2E    2E    Tri-State
-   0x2D, // 02 IOCFG0   *3F   *0C    GDO0 for input
+   0x0D, // 02 IOCFG0   *3F   *0C    GDO2 for input
    0x07, // 03 FIFOTHR   07   *47    
    0xD3, // 04 SYNC1     D3    D3    
    0x91, // 05 SYNC0     91    91    

@@ -69,7 +69,7 @@ uint8_t moritz_on = 0;
 const uint8_t PROGMEM MORITZ_CFG[60] = {
 //     0x00, 0x08,
      0x00, 0x07, //IOCFG2: GDO2_CFG=7: Asserts when a packet has been received with CRC OK. De-asserts when the first byte is read from the RX FIFO
-     0x02, 0x46, //IOCFG0
+     0x02, 0x07, //IOCFG0
      0x04, 0xC6, //SYNC1
      0x05, 0x26, //SYNC0
      0x0B, 0x06, //FSCTRL1
